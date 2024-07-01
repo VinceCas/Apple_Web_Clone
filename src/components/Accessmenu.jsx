@@ -1,0 +1,28 @@
+import React from 'react'
+
+const Accessmenu = () => (
+<section className='absolute bg-white w-full h-auto top-10 left-0 fade-up '>
+  <div className='flex items-start flex-row gap-10 px-[250px] py-[30px]'>
+      <div className='flex flex-col'>
+          <h1 className=' text-gray-500 text-[12px]'>Shop Accessories</h1>
+          <h1 className='font-SF-Pro font-bold text-[28px]'>Shop All Accessories</h1>
+          <h1 className='font-SF-Pro font-bold text-[28px]'>Mac</h1>
+          <h1 className='font-SF-Pro font-bold text-[28px]'>iPad</h1>
+          <h1 className='font-SF-Pro font-bold text-[28px]'>iPhone</h1>
+          <h1 className='font-SF-Pro font-bold text-[28px]'>Apple Watch</h1>
+          <h1 className='font-SF-Pro font-bold text-[28px]'>Apple Vision Pro</h1>
+          <h1 className='font-SF-Pro font-bold text-[28px]'>AirPods</h1>
+          <h1 className='font-SF-Pro font-bold text-[28px]'>TV & Home</h1>
+      </div>
+      <div className='flex flex-col'>
+          <h1 className=' text-gray-500 text-[12px]'>Explore Accessories</h1>
+          <h1 className=' font-semibold text-[14px]'>Made by Apple</h1>
+          <h1 className=' font-semibold text-[14px]'>Beats by Dr. Dre</h1>
+          <h1 className=' font-semibold text-[14px]'>Air Tag</h1>
+      </div>
+
+  </div>
+</section>
+)
+
+export default Accessmenu
