@@ -10,7 +10,6 @@ import {
 } from "./components";
 
 const App = () => (
-  <Router basename = "/Apple_Web_Clone">
   <div className={`w-full overflow-hidden`}>
     <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
